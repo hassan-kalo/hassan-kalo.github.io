@@ -1,0 +1,241 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Aref+Ruqaa:wght@400;700&family=Gulzar&family=Lalezar&family=Lateef:wght@200;300;400;500;600;700;800&family=Markazi+Text:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;500;600;700&family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&family=Rakkas&family=Readex+Pro:wght@200;300;400;500;600;700&family=Vazirmatn:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'kfgqpc_ksa_extraextrabold';
+    src: url('fonts/ksaextra-webfont.woff2') format('woff2'),
+         url('fonts/ksaextra-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kfgqpc_ksa_headingextrablack';
+    src: url('fonts/ksaheading-webfont.woff2') format('woff2'),
+         url('fonts/ksaheading-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kfgqpc_ksa_heavyheavy';
+    src: url('fonts/ksaheavy-webfont.woff2') format('woff2'),
+         url('fonts/ksaheavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kfgqpc_ksa_regularbold';
+    src: url('fonts/ksaregular_b-webfont.woff2') format('woff2'),
+         url('fonts/ksaregular_b-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kfgqpc_ksa_regularregular';
+    src: url('fonts/ksaregular-webfont.woff2') format('woff2'),
+         url('fonts/ksaregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kfgqpc_qaloun_uthmanic_scriRg';
+    src: url('fonts/uthmanicqaloun_v21-webfont.woff2') format('woff2'),
+         url('fonts/uthmanicqaloun_v21-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'kfgqpc_nastaleeqregular';
+    src: url('fonts/hafsnastaleeq_ver10-webfont.woff2') format('woff2'),
+         url('fonts/hafsnastaleeq_ver10-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kfgqpc_uthman_taha_naskhRg';
+    src: url('fonts/uthmantn_v2-0-webfont.woff2') format('woff2'),
+         url('fonts/uthmantn_v2-0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kfgqpc_uthman_taha_naskhbold';
+    src: url('fonts/uthmantnb_v2-0-webfont.woff2') format('woff2'),
+         url('fonts/uthmantnb_v2-0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* font-family: 'Amiri', serif;
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Gulzar', serif;
+font-family: 'Lalezar', cursive;
+font-family: 'Lateef', serif;
+font-family: 'Markazi Text', serif;
+font-family: 'Noto Naskh Arabic', serif;
+font-family: 'Noto Nastaliq Urdu', serif;
+font-family: 'Noto Sans Arabic', sans-serif;
+font-family: 'Rakkas', cursive;
+font-family: 'Readex Pro', sans-serif;
+font-family: 'Vazirmatn', sans-serif; */
+
+/* font-family: Arial, Helvetica, sans-serif; */
+@font-face {
+    font-family: 'kfgqpc_hafs_uthmanic_scriptRg';
+    src: url('fonts/uthmanichafs_v20-webfont.woff2') format('woff2'),
+         url('fonts/uthmanichafs_v20-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ /* @font-face {
+    font-family: 'kfgqpc_hafs_uthmanic_scriptRg';
+    src: url('fonts/uthmanichafs1_ver13-webfont.woff2') format('woff2'),
+         url('fonts/uthmanichafs1_ver13-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */ 
+
+@font-face {
+    font-family: 'kfgqpc_hafs_uthmanic_scriptBd';
+    src: url('fonts/uthmanichafs1b_ver13-webfont.woff2') format('woff2'),
+         url('fonts/uthmanichafs1b_ver13-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* -------------------------------------------------- */
+/* font-family: QCF2004; */
+/* font-family: Kitab; */
+@font-face {
+    font-family: 'Kitab';
+    src: url('fonts/almushaffonts/kitab-base.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'QCF2004';
+    src: url('fonts/almushaffonts/QCF2004.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+/* -------------------------------------------------- */
+@font-face {
+    font-family: hafs;
+    src: url('fonts/hafs.woff2') format('woff2'),
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.page{
+
+    text-align: center;
+    border: 2px solid white;
+    /* margin-right: 20%;
+    margin-left: 20%; */
+    font-size: x-large;
+    position: relative;
+ /* letter-spacing: 2px; */
+ /* font-family: 'Kitab'; */
+ /* font-family: 'QCF2004'; */
+ font-family: hafs;
+ /* font-family: 'kfgqpc_hafs_uthmanic_scriptRg'; */
+ /* font-family: 'kfgqpc_hafs_uthmanic_scriptBd'; */
+ /* font-family: 'kfgqpc_uthman_taha_naskhRg'; */
+ /* font-family: 'kfgqpc_uthman_taha_naskhbold'; */
+ /* font-family: 'kfgqpc_nastaleeqregular'; */
+}
+.besm-h{
+    font-family: 'kfgqpc_ksa_extraextrabold';
+    color: aqua;
+}
+.aya-num{
+    font-family: 'Kitab';
+    cursor: pointer;
+}
+h3{
+    border: 1px solid rgb(239, 16, 224);
+}
+h4{
+    border: 2px dotted white;
+}
+
+.sura{
+    margin-bottom: 50px;
+}
+
+.search{
+    margin-right: 20%;
+}
+
+.prev-page-btn{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+    user-select: none;
+}
+.next-page-btn{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    font-size: xx-large;
+    cursor: pointer;
+    user-select: none;
+}
+
+.explained-word, .aya{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.BesmAllah-h{
+    border: 1px solid white;
+}
+
+.firstWordInFirstAya{
+    color: red;
+}
+.first-aya{
+    color: green;
+}
+
+.first-word{
+    color: blueviolet;
+}
+
+.sura-name{
+    color: gold;
+}
+
+/* .pageNumDiv{
+    margin-top: ;
+} */
