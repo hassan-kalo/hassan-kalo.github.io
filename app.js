@@ -43,10 +43,10 @@ function tafsir(e){
     tafsirContainer.textContent = e.target
 }
 function newContent(){
+    pageDiv.innerText = ''
     //let divAyasCreated = false
     //let containerAyas
     let firstWordInFirstAyaFound = false
-    
     pageDiv.innerText = ''
     pageInfoDiv.innerText = ''
     const pageNumDiv = document.createElement('div')
@@ -114,7 +114,6 @@ nextPageBtn.addEventListener('click',()=>{
     if(pageNumCounter<pages.length){
         pageNumCounter++
         localStorage.setItem('lastPage', pageNumCounter)
-        pageDiv.innerText = ''
         newContent() 
         prevPageBtn.style.color = 'white'
         if(pageNumCounter==pages.length){
@@ -130,7 +129,6 @@ prevPageBtn.addEventListener('click',()=>{
     if(pageNumCounter>1){
         pageNumCounter--
         localStorage.setItem('lastPage', pageNumCounter)
-        pageDiv.innerText = ''
         newContent() 
         nextPageBtn.style.color = 'white'
         if(pageNumCounter==1){
