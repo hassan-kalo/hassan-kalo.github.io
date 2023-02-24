@@ -149,7 +149,7 @@ font-family: 'Vazirmatn', sans-serif; */
 
 body{
     background-color: black;
-    color: white;
+    color: lightblue;
 }
 h1{
     text-align: center;
@@ -160,8 +160,8 @@ h1{
     border: 2px solid white;
     /* margin-right: 20%;
     margin-left: 20%; */
-    font-size: x-large;
-    position: relative;
+    font-size: xx-large;
+    
  /* letter-spacing: 2px; */
  /* font-family: 'Kitab'; */
  /* font-family: 'QCF2004'; */
@@ -171,20 +171,19 @@ h1{
  /* font-family: 'kfgqpc_uthman_taha_naskhRg'; */
  /* font-family: 'kfgqpc_uthman_taha_naskhbold'; */
  /* font-family: 'kfgqpc_nastaleeqregular'; */
+
+ /* max-width: 60%; */
+ padding-right: 10px;
+ padding-left: 10px;
+}
+.tafsirs-container{
+    font-family: hafs;
 }
 .besm-h{
     font-family: 'kfgqpc_ksa_extraextrabold';
-    color: aqua;
 }
 .aya-num{
     font-family: 'Kitab';
-    cursor: pointer;
-}
-h3{
-    border: 1px solid rgb(239, 16, 224);
-}
-h4{
-    border: 2px dotted white;
 }
 
 .sura{
@@ -212,14 +211,11 @@ h4{
     user-select: none;
 }
 
-.explained-word, .aya{
+.explained-word{
     color: cornflowerblue;
-    cursor: pointer;
 }
 
-.BesmAllah-h{
-    border: 1px solid white;
-}
+
 
 .firstWordInFirstAya{
     color: red;
@@ -228,14 +224,17 @@ h4{
     color: green;
 }
 
-.first-word{
-    color: blueviolet;
+.tafsirs-container{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: xx-large;
+    
+}
+.div-aya{
+    color: rgb(14, 209, 216);
 }
 
-.sura-name{
-    color: gold;
+.tafsirs-container, .page, .checkbox-container{
+    width: clamp(40%, 650px, 95%);
+    margin: auto;
 }
-
-/* .pageNumDiv{
-    margin-top: ;
-} */
