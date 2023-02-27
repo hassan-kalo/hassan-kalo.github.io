@@ -156,6 +156,8 @@ h1{
 }
 .page{
 
+    background-color: white;
+    color: black;
     text-align: center;
     border: 2px solid white;
     /* margin-right: 20%;
@@ -173,8 +175,10 @@ h1{
  /* font-family: 'kfgqpc_nastaleeqregular'; */
 
  /* max-width: 60%; */
- padding-right: 10px;
- padding-left: 10px;
+ padding-right: 30px;
+ padding-left: 30px;
+ padding-top: 30px;
+ 
 }
 .tafsirs-container{
     font-family: hafs;
@@ -235,6 +239,10 @@ h1{
 }
 
 .tafsirs-container, .page, .checkbox-container{
-    width: clamp(40%, 650px, 95%);
+    width: clamp(30%, 650px, 95%);
     margin: auto;
 }
+
+/* .pageNumDiv{
+    background-color: aqua;
+} */
